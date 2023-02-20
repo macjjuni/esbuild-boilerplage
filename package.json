@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-boilerplage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "tsc": "tsc ./src/main.ts",
+    "dev": "ts-node ./src/main.ts",
+    "build": "esbuild src/main.ts --outfile=dist/bundle.js --bundle=true"
+  },
+  "keywords": [],
+  "author": "kkusaeng",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "esbuild": "^0.17.9",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
