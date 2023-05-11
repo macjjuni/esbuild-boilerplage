@@ -1,4 +1,4 @@
-# ESBuild-TS-BoilderPlate
+# TypeScript-ESBuild-template
 
 
 ### tsc 명령어
